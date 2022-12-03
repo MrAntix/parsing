@@ -1,3 +1,34 @@
+# [2.0.0-next.1](https://github.com/ntix/parsing/compare/v1.0.2...v2.0.0-next.1) (2022-12-03)
+
+
+### Bug Fixes
+
+* **nullable:** add nullable and allow undefined, other failure results normalise to null ([785d998](https://github.com/ntix/parsing/commit/785d9989725068873be33e0e1676e61814a4ed1a))
+* **parsing:** It.If => If ([7bd9380](https://github.com/ntix/parsing/commit/7bd9380b6afc61547137f9d1747179c940e6d1c2))
+* **parsing:** type (private var) ([1141b34](https://github.com/ntix/parsing/commit/1141b34800835be1db716410eafe288f70fd0fa8))
+* **parsing:** type ParseErrors ([8f12c13](https://github.com/ntix/parsing/commit/8f12c13c0b1b08255cb57e352f332fe3cd1de671))
+
+
+### Code Refactoring
+
+* **parsing:** change 'for' and 'complex' to 'object' ([3a1c224](https://github.com/ntix/parsing/commit/3a1c224ede388c077796bdb2debe2e8da4e9a222))
+* **parsing:** move util functions to avoid circular refs ([eb94bda](https://github.com/ntix/parsing/commit/eb94bda14422326284c78a1dcce9127324edefbd))
+
+
+### Features
+
+* **defined:** check for value not being undefined, allowing null or empty string ([d418184](https://github.com/ntix/parsing/commit/d4181842bb5daad94514aa5bbc2cfae4034df5ae))
+* **parsing:** hasParseErrors helper mehod to check for parse errors ([ef5eab0](https://github.com/ntix/parsing/commit/ef5eab053503ea8750b7062b8e9a8f2b07f7c8d3))
+* **parsing:** if conditional parse ([b9919d7](https://github.com/ntix/parsing/commit/b9919d7d85bf8e422993d0f5c3cefbd3150370ba))
+* **parsing:** ParseErrorCallback for bespoke errors on 'use' parser ([44f8586](https://github.com/ntix/parsing/commit/44f85864282677b05d6091f9a3c3106ba6d21f01))
+
+
+### BREAKING CHANGES
+
+* **parsing:** complex api change
+* **parsing:** ensureDateArray => parseDateArray
+* **parsing:** anyOf => oneOf
+
 ## [1.0.2](https://github.com/ntix/parsing/compare/v1.0.1...v1.0.2) (2022-11-12)
 
 
