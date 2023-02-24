@@ -4,6 +4,39 @@
 ### Bug Fixes
 
 * bump ([cd59505](https://github.com/ntix/parsing/commit/cd59505eba7dccf0a26407d92f440e0c92234b0c))
+* manual bump to 2.0.0-next.2 ([b584ce3](https://github.com/ntix/parsing/commit/b584ce39903e5a1646a9843f7a187b121d4685b8))
+* **nullable:** add nullable and allow undefined, other failure results normalise to null ([32cf597](https://github.com/ntix/parsing/commit/32cf59765e886348ed6177f9fa01eb54b230784b))
+* **parsing:** It.If => If ([00353ad](https://github.com/ntix/parsing/commit/00353ad944406fac48391914d92711cbf52330b1))
+* **parsing:** type (private var) ([324115c](https://github.com/ntix/parsing/commit/324115c020c5d6c88b7e7592540fb33365fc5588))
+* **parsing:** type ParseErrors ([2eb88a1](https://github.com/ntix/parsing/commit/2eb88a137c9ffad31a3835aac2df0230692b7644))
+
+
+### Code Refactoring
+
+* **parsing:** change 'for' and 'complex' to 'object' ([ef47536](https://github.com/ntix/parsing/commit/ef475361c8601fd7a982b826945ed98f8bcef67b))
+* **parsing:** move util functions to avoid circular refs ([51ceda3](https://github.com/ntix/parsing/commit/51ceda3a2a3915b7081b495287503461e791399d))
+
+
+### Features
+
+* **defined:** check for value not being undefined, allowing null or empty string ([ec08f9d](https://github.com/ntix/parsing/commit/ec08f9d65e39f829711ebc5916981998a1dc8e86))
+* **parsing:** hasParseErrors helper mehod to check for parse errors ([fb816af](https://github.com/ntix/parsing/commit/fb816af21c35bbbdc96557b19c691eeeaefcb3ad))
+* **parsing:** if conditional parse ([4c9ecbb](https://github.com/ntix/parsing/commit/4c9ecbb89b1ce46e63637f8a836ec26ff09949fc))
+* **parsing:** ParseErrorCallback for bespoke errors on 'use' parser ([f4f82c3](https://github.com/ntix/parsing/commit/f4f82c3648b6cc99906ad9479f36c37d2c4fc70c))
+
+
+### BREAKING CHANGES
+
+* **parsing:** complex api change
+* **parsing:** ensureDateArray => parseDateArray
+* **parsing:** anyOf => oneOf
+
+# [2.0.0-next.1](https://github.com/ntix/parsing/compare/v1.0.2...v2.0.0-next.1) (2023-02-24)
+
+
+### Bug Fixes
+
+* bump ([cd59505](https://github.com/ntix/parsing/commit/cd59505eba7dccf0a26407d92f440e0c92234b0c))
 * **nullable:** add nullable and allow undefined, other failure results normalise to null ([32cf597](https://github.com/ntix/parsing/commit/32cf59765e886348ed6177f9fa01eb54b230784b))
 * **parsing:** It.If => If ([00353ad](https://github.com/ntix/parsing/commit/00353ad944406fac48391914d92711cbf52330b1))
 * **parsing:** type (private var) ([324115c](https://github.com/ntix/parsing/commit/324115c020c5d6c88b7e7592540fb33365fc5588))
