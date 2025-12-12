@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   },
   "extends": "./tsconfig.json",
   "exclude": [
